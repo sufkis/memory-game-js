@@ -1,14 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-image: url('/images/skully_bg.jpg');
+  background-size: cover;
+}
+
+body {
+  background-color: transparent !important;
+}
+
 .page-wrapper {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+.headline {
+  color: #A1986C;
 }
 
 .game-wrapper {
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .row {
-  height: 15vh;
+  height: 18vh;
 }
 
 .col {
@@ -16,10 +33,17 @@
 }
 
 .card {
-  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,1);
+  background-image: url("/images/fantasy_card_back.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .card:hover {
-  box-shadow: 0px 5px 15px 5px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 15px 5px rgba(0,0,0,1);
   cursor: pointer;
+}
+
+.image {
+  height: 100%;
 }
