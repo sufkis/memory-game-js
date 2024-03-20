@@ -18,6 +18,9 @@ body {
 
 .headline {
   color: #A1986C;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-bottom: 5px;
 }
 
 .game-wrapper {
@@ -37,6 +40,7 @@ body {
   background-image: url("/images/fantasy_card_back.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  border-radius: 11px !important;
 }
 
 .card:hover {
@@ -46,4 +50,41 @@ body {
 
 .image {
   height: 100%;
+  border-radius: 11px;
+}
+
+.disabled {
+  opacity: 0.3;
+}
+
+.disabled:hover {
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,1);
+  cursor: default;
+}
+
+.swal-modal {
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 700px;
+}
+
+.swal-footer {
+  text-align: center;
+  margin: 70px 0px;
+}
+
+.swal-button {
+  color: #FFC107;
+  border: 1px solid #FFC107;
+  background-color: transparent;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.swal-button:focus {
+  box-shadow: unset;
+}
+
+.swal-button:hover {
+  color: black;
+  background-color: #FFC107 !important;
 }
